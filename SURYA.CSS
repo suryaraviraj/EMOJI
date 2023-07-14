@@ -1,0 +1,62 @@
+body {
+    background-image: radial-gradient(circle,rgb(255, 240, 192), rgb(11, 9, 143), rgb(201, 35, 63));
+    
+  }
+  h1
+  { 
+    text-align: center;
+    
+  }
+  .face
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fc5203;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+   }
+   .mouth {
+    position: absolute;
+    background-color: rgba(202, 236, 6, 0.897);
+    width: 215px;
+    height: 90px;
+    border-radius: 7px 7px 100px 100px;
+    top: 250px;
+    left: 90px;
+  } 
+  .eye-section {
+   
+      width: 285px;
+      height: 100px;
+      position: absolute;
+      left: 60px;
+      top: 70px;
+    }
+    .left-eye, .right-eye {
+      background-color: #151615;
+      width: 52px;
+      height: 65px;
+      border-radius: 50px;
+      position: absolute;
+      top: 25px;
+    }
+    .right-eye {
+      right: 20px;
+    }
+    .left-eye::before, .right-eye::before {
+      content: "";
+      display: block;
+      background-color: rgb(255, 255, 255);
+      width: 23px;
+      height: 23px;
+      border-radius: 100px;
+      position: absolute;
+      top: 20px;
+      left: 10px;
+    }
+    h1{
+      text-shadow: rgb(245, 245, 245);
+    }
